@@ -13,6 +13,8 @@ server.use(cors());
 
 server.use('/api', require('./routes'));
 
-server.listen(3000, '127.0.0.1', function () {
+server.listen(3000, function () {
     console.log('Started Node.js HTTP Server.');
 });
+
+

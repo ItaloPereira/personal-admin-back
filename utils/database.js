@@ -6,8 +6,8 @@ Database.createPool = database => {
     Database.dbConnectionPool = mysql.createPool({
         host: '10.10.4.36',
         user: 'root',
-        database: 'bepro',
-        password: 'root',
+        password: 'password',
+        database: 'personaladmin',
     });
 };
 
